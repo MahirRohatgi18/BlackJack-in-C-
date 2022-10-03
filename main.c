@@ -398,21 +398,7 @@ void dealerTurn()
 	}
 
 }
-void dealerHit()
-{
-	printf("Dealer has : %d\n", dealerPoints);
-	printf("Dealer has drawn\n");
-	displayDeck();
-	defineStrength();
-	cardsDrawn++;
 
-	if (dealerPoints < 17) {
-		dealerHit();
-	}
-	else {
-		dealerTurn();
-	}
-}
 
 void stand()
 {

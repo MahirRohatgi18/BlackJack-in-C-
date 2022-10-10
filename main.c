@@ -527,3 +527,6 @@ void randomiseDeck(Deck deck[])
 	} //creating a temperorary structure deck to store the changed index
 }
 
+void displayDeck() {
+	printf("%5s of %-12s\n", deck[cardsDrawn].strength, deck[cardsDrawn].suit);
+}

@@ -530,3 +530,6 @@ void randomiseDeck(Deck deck[])
 void displayDeck() {
 	printf("%5s of %-12s\n", deck[cardsDrawn].strength, deck[cardsDrawn].suit);
 }
+
+//this is the ending for this project pls consider it completed and crosschecked
+

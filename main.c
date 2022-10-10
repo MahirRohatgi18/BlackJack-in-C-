@@ -506,9 +506,7 @@ void hit()
 	}
 
 }
-void displayDeck() {
-	printf("%5s of %-12s\n", deck[cardsDrawn].strength, deck[cardsDrawn].suit);
-}
+
 
 
 

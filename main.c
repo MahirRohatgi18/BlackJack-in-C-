@@ -510,16 +510,5 @@ void displayDeck() {
 	printf("%5s of %-12s\n", deck[cardsDrawn].strength, deck[cardsDrawn].suit);
 }
 
-void randomiseDeck(Deck deck[])
-{
-	int indexSwap = 0;
-	Deck temp = { "", "" };
-	srand(time(NULL));
-	for (int i = 0; i < DECK_SIZE; i++) {
-		indexSwap = rand() % (DECK_SIZE);
-		temp = deck[i];
-		deck[i] = deck[indexSwap];
-		deck[indexSwap] = temp;
-	} //creating a temperorary structure deck to store the changed index
-}
+
 

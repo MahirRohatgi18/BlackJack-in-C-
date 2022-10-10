@@ -523,10 +523,3 @@ void randomiseDeck(Deck deck[])
 	} //creating a temperorary structure deck to store the changed index
 }
 
-void initialiseDeck()
-{
-	for (int i = 0; i < DECK_SIZE; i++) {
-		deck[i].strength = strength[i % 13];
-		strncpy(deck[i].suit, suit[i / 13], 9);
-	}
-}
